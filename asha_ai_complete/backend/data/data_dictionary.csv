@@ -1,0 +1,33 @@
+field,type,meaning
+record_id,string,Unique synthetic record identifier
+data_label,string,Always SYNTHETIC_DEMO_NOT_REAL
+event_timestamp_utc,ISO-8601 datetime,Synthetic event time in UTC
+reported_timestamp_utc,ISO-8601 datetime,Timestamp when simulated record was reported
+district,string,District label for simulated scenario; not an actual hospital feed
+hospital_id,string,Fictional SYN-HOSP identifier
+latitude_demo_only,float,Random demo coordinate in broad Tamil Nadu region; not a real hospital location
+longitude_demo_only,float,Random demo coordinate in broad Tamil Nadu region; not a real hospital location
+total_beds / occupied_beds / available_beds,integer,Constraint: total_beds = occupied_beds + available_beds
+total_icu_beds / occupied_icu_beds / available_icu_beds,integer,Constraint: total_icu_beds = occupied_icu_beds + available_icu_beds
+doctors_on_duty,integer,Synthetic count; not staffing information
+doctors_required_estimate,integer,Synthetic workload estimate; not a clinical staffing rule
+ventilators_total / ventilators_available,integer,Constraint: 0 <= available <= total
+oxygen_capacity_l_demo_only,integer,Fictional capacity in litres; illustrative only
+oxygen_level_pct,integer,Synthetic level 0-100; not actual sensor reading
+blood_group,string,Synthetic blood group category
+blood_units_demo_only,integer,Fictional stock count; not blood bank availability
+ambulances_total / ambulances_available,integer,Synthetic counts; not live dispatch data
+ambulance_status_sample,category,"Synthetic sample status, not a specific ambulance's actual status"
+emergency_type,category,Synthetic scenario category
+urgency_1_to_5,integer,Synthetic urgency label for software testing; not clinical triage
+patients_waiting_demo_only,integer,Synthetic waiting count
+source_type,category,Synthetic source marker only
+data_age_minutes,integer,Simulated age of data
+missing_field_injected,string,"Injected missing-data scenario field name, blank otherwise"
+sensor_conflict_flag,boolean,Synthetic conflicting-source scenario flag
+verification_status,category,Synthetic verification label for testing rules
+resource_pressure_count,integer,Count of prototype threshold flags; not a validated clinical score
+prototype_recommendation,category,Rule-based demo action; not medical advice
+human_review_required,boolean,Always true
+clinical_decision_use,string,Always NOT_FOR_REAL_PATIENT_CARE
+ml_split,category,Deterministic 80% train / 20% test split

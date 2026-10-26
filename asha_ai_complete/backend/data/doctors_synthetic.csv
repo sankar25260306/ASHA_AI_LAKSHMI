@@ -1,0 +1,301 @@
+doctor_id,demo_name,hospital_id,hospital_name,department,specialization,shift,status,on_call,data_label
+SYN-DOC-0001,Demo Doctor 001,LHN-TN-18,Lakshmi Hospital — Nilgiris District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,General Medicine,Day,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0002,Demo Doctor 002,LHN-TN-32,Lakshmi Hospital — Tiruppur District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,General Surgery,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0003,Demo Doctor 003,LHN-TN-11,Lakshmi Hospital — Kanniyakumari District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Neurology,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0004,Demo Doctor 004,LHN-TN-31,Lakshmi Hospital — Tirupathur District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,General Surgery,Evening,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0005,Demo Doctor 005,LHN-TN-01,Lakshmi Hospital — Ariyalur District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,Emergency Medicine,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0006,Demo Doctor 006,LHN-TN-03,Lakshmi Hospital — Chennai District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,Obstetrics & Gynecology,Night,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0007,Demo Doctor 007,LHN-TN-37,Lakshmi Hospital — Viluppuram District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,General Medicine,Night,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0008,Demo Doctor 008,LHN-TN-18,Lakshmi Hospital — Nilgiris District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Pediatrics,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0009,Demo Doctor 009,LHN-TN-36,Lakshmi Hospital — Vellore District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,Anesthesiology,Day,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0010,Demo Doctor 010,LHN-TN-23,Lakshmi Hospital — Salem District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,General Medicine,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0011,Demo Doctor 011,LHN-TN-23,Lakshmi Hospital — Salem District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,Pulmonology,Night,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0012,Demo Doctor 012,LHN-TN-28,Lakshmi Hospital — Thoothukudi District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Pediatrics,Evening,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0013,Demo Doctor 013,LHN-TN-29,Lakshmi Hospital — Tiruchirappalli District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,General Medicine,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0014,Demo Doctor 014,LHN-TN-09,Lakshmi Hospital — Kallakurichi District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Orthopedics,Evening,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0015,Demo Doctor 015,LHN-TN-21,Lakshmi Hospital — Ramanathapuram District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Pediatrics,Day,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0016,Demo Doctor 016,LHN-TN-02,Lakshmi Hospital — Chengalpattu District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,General Surgery,Night,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0017,Demo Doctor 017,LHN-TN-23,Lakshmi Hospital — Salem District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,General Surgery,Day,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0018,Demo Doctor 018,LHN-TN-36,Lakshmi Hospital — Vellore District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,Emergency Medicine,Day,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0019,Demo Doctor 019,LHN-TN-12,Lakshmi Hospital — Karur District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Orthopedics,Evening,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0020,Demo Doctor 020,LHN-TN-25,Lakshmi Hospital — Tenkasi District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Emergency Medicine,Evening,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0021,Demo Doctor 021,LHN-TN-27,Lakshmi Hospital — Theni District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Pulmonology,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0022,Demo Doctor 022,LHN-TN-08,Lakshmi Hospital — Erode District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,Anesthesiology,Day,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0023,Demo Doctor 023,LHN-TN-24,Lakshmi Hospital — Sivaganga District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Neurology,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0024,Demo Doctor 024,LHN-TN-17,Lakshmi Hospital — Namakkal District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Emergency Medicine,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0025,Demo Doctor 025,LHN-TN-33,Lakshmi Hospital — Tiruvallur District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,Obstetrics & Gynecology,Night,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0026,Demo Doctor 026,LHN-TN-08,Lakshmi Hospital — Erode District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Emergency Medicine,Day,off_duty,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0027,Demo Doctor 027,LHN-TN-23,Lakshmi Hospital — Salem District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,Anesthesiology,Evening,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0028,Demo Doctor 028,LHN-TN-37,Lakshmi Hospital — Viluppuram District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,Anesthesiology,Evening,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0029,Demo Doctor 029,LHN-TN-25,Lakshmi Hospital — Tenkasi District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Anesthesiology,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0030,Demo Doctor 030,LHN-TN-03,Lakshmi Hospital — Chennai District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,General Surgery,Night,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0031,Demo Doctor 031,LHN-TN-30,Lakshmi Hospital — Tirunelveli District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Obstetrics & Gynecology,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0032,Demo Doctor 032,LHN-TN-12,Lakshmi Hospital — Karur District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,Emergency Medicine,Evening,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0033,Demo Doctor 033,LHN-TN-08,Lakshmi Hospital — Erode District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Anesthesiology,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0034,Demo Doctor 034,LHN-TN-10,Lakshmi Hospital — Kancheepuram District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,General Surgery,Day,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0035,Demo Doctor 035,LHN-TN-09,Lakshmi Hospital — Kallakurichi District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Obstetrics & Gynecology,Evening,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0036,Demo Doctor 036,LHN-TN-32,Lakshmi Hospital — Tiruppur District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Anesthesiology,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0037,Demo Doctor 037,LHN-TN-30,Lakshmi Hospital — Tirunelveli District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,Orthopedics,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0038,Demo Doctor 038,LHN-TN-31,Lakshmi Hospital — Tirupathur District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Anesthesiology,Day,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0039,Demo Doctor 039,LHN-TN-36,Lakshmi Hospital — Vellore District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Cardiology,Day,off_duty,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0040,Demo Doctor 040,LHN-TN-03,Lakshmi Hospital — Chennai District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,General Medicine,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0041,Demo Doctor 041,LHN-TN-09,Lakshmi Hospital — Kallakurichi District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Anesthesiology,Day,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0042,Demo Doctor 042,LHN-TN-17,Lakshmi Hospital — Namakkal District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Orthopedics,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0043,Demo Doctor 043,LHN-TN-38,Lakshmi Hospital — Virudhunagar District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Pulmonology,Night,off_duty,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0044,Demo Doctor 044,LHN-TN-33,Lakshmi Hospital — Tiruvallur District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Anesthesiology,Night,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0045,Demo Doctor 045,LHN-TN-03,Lakshmi Hospital — Chennai District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Neurology,Night,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0046,Demo Doctor 046,LHN-TN-34,Lakshmi Hospital — Tiruvannamalai District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Pulmonology,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0047,Demo Doctor 047,LHN-TN-35,Lakshmi Hospital — Tiruvarur District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Emergency Medicine,Evening,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0048,Demo Doctor 048,LHN-TN-16,Lakshmi Hospital — Nagapattinam District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Cardiology,Evening,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0049,Demo Doctor 049,LHN-TN-14,Lakshmi Hospital — Madurai District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Obstetrics & Gynecology,Evening,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0050,Demo Doctor 050,LHN-TN-14,Lakshmi Hospital — Madurai District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Emergency Medicine,Day,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0051,Demo Doctor 051,LHN-TN-14,Lakshmi Hospital — Madurai District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,Pediatrics,Evening,busy,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0052,Demo Doctor 052,LHN-TN-06,Lakshmi Hospital — Dharmapuri District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,Orthopedics,Evening,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0053,Demo Doctor 053,LHN-TN-08,Lakshmi Hospital — Erode District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Pulmonology,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0054,Demo Doctor 054,LHN-TN-24,Lakshmi Hospital — Sivaganga District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Obstetrics & Gynecology,Day,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0055,Demo Doctor 055,LHN-TN-37,Lakshmi Hospital — Viluppuram District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Anesthesiology,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0056,Demo Doctor 056,LHN-TN-05,Lakshmi Hospital — Cuddalore District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,Obstetrics & Gynecology,Evening,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0057,Demo Doctor 057,LHN-TN-10,Lakshmi Hospital — Kancheepuram District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Emergency Medicine,Day,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0058,Demo Doctor 058,LHN-TN-04,Lakshmi Hospital — Coimbatore District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Orthopedics,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0059,Demo Doctor 059,LHN-TN-01,Lakshmi Hospital — Ariyalur District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Anesthesiology,Evening,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0060,Demo Doctor 060,LHN-TN-01,Lakshmi Hospital — Ariyalur District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Obstetrics & Gynecology,Day,on_call,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0061,Demo Doctor 061,LHN-TN-19,Lakshmi Hospital — Perambalur District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Neurology,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0062,Demo Doctor 062,LHN-TN-22,Lakshmi Hospital — Ranipet District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Pulmonology,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0063,Demo Doctor 063,LHN-TN-09,Lakshmi Hospital — Kallakurichi District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Emergency Medicine,Evening,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0064,Demo Doctor 064,LHN-TN-03,Lakshmi Hospital — Chennai District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Pediatrics,Night,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0065,Demo Doctor 065,LHN-TN-09,Lakshmi Hospital — Kallakurichi District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,General Medicine,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0066,Demo Doctor 066,LHN-TN-28,Lakshmi Hospital — Thoothukudi District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,General Surgery,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0067,Demo Doctor 067,LHN-TN-30,Lakshmi Hospital — Tirunelveli District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,General Medicine,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0068,Demo Doctor 068,LHN-TN-14,Lakshmi Hospital — Madurai District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,General Surgery,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0069,Demo Doctor 069,LHN-TN-02,Lakshmi Hospital — Chengalpattu District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Cardiology,Evening,busy,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0070,Demo Doctor 070,LHN-TN-33,Lakshmi Hospital — Tiruvallur District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Orthopedics,Day,busy,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0071,Demo Doctor 071,LHN-TN-23,Lakshmi Hospital — Salem District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Orthopedics,Evening,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0072,Demo Doctor 072,LHN-TN-23,Lakshmi Hospital — Salem District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Pulmonology,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0073,Demo Doctor 073,LHN-TN-22,Lakshmi Hospital — Ranipet District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,General Surgery,Night,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0074,Demo Doctor 074,LHN-TN-21,Lakshmi Hospital — Ramanathapuram District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,General Medicine,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0075,Demo Doctor 075,LHN-TN-09,Lakshmi Hospital — Kallakurichi District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Cardiology,Evening,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0076,Demo Doctor 076,LHN-TN-20,Lakshmi Hospital — Pudukkottai District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Pediatrics,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0077,Demo Doctor 077,LHN-TN-10,Lakshmi Hospital — Kancheepuram District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,Emergency Medicine,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0078,Demo Doctor 078,LHN-TN-30,Lakshmi Hospital — Tirunelveli District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Orthopedics,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0079,Demo Doctor 079,LHN-TN-34,Lakshmi Hospital — Tiruvannamalai District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,Neurology,Evening,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0080,Demo Doctor 080,LHN-TN-02,Lakshmi Hospital — Chengalpattu District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,General Medicine,Day,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0081,Demo Doctor 081,LHN-TN-06,Lakshmi Hospital — Dharmapuri District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Neurology,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0082,Demo Doctor 082,LHN-TN-13,Lakshmi Hospital — Krishnagiri District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,General Medicine,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0083,Demo Doctor 083,LHN-TN-36,Lakshmi Hospital — Vellore District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Pulmonology,Evening,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0084,Demo Doctor 084,LHN-TN-24,Lakshmi Hospital — Sivaganga District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Anesthesiology,Night,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0085,Demo Doctor 085,LHN-TN-07,Lakshmi Hospital — Dindigul District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Emergency Medicine,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0086,Demo Doctor 086,LHN-TN-10,Lakshmi Hospital — Kancheepuram District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,General Surgery,Evening,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0087,Demo Doctor 087,LHN-TN-25,Lakshmi Hospital — Tenkasi District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,General Medicine,Evening,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0088,Demo Doctor 088,LHN-TN-33,Lakshmi Hospital — Tiruvallur District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,Emergency Medicine,Night,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0089,Demo Doctor 089,LHN-TN-03,Lakshmi Hospital — Chennai District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Cardiology,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0090,Demo Doctor 090,LHN-TN-14,Lakshmi Hospital — Madurai District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Cardiology,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0091,Demo Doctor 091,LHN-TN-25,Lakshmi Hospital — Tenkasi District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,General Surgery,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0092,Demo Doctor 092,LHN-TN-23,Lakshmi Hospital — Salem District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,General Medicine,Evening,busy,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0093,Demo Doctor 093,LHN-TN-08,Lakshmi Hospital — Erode District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Orthopedics,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0094,Demo Doctor 094,LHN-TN-20,Lakshmi Hospital — Pudukkottai District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Cardiology,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0095,Demo Doctor 095,LHN-TN-14,Lakshmi Hospital — Madurai District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Emergency Medicine,Night,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0096,Demo Doctor 096,LHN-TN-35,Lakshmi Hospital — Tiruvarur District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Pulmonology,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0097,Demo Doctor 097,LHN-TN-26,Lakshmi Hospital — Thanjavur District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Orthopedics,Night,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0098,Demo Doctor 098,LHN-TN-38,Lakshmi Hospital — Virudhunagar District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,General Surgery,Day,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0099,Demo Doctor 099,LHN-TN-07,Lakshmi Hospital — Dindigul District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Anesthesiology,Day,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0100,Demo Doctor 100,LHN-TN-16,Lakshmi Hospital — Nagapattinam District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,Cardiology,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0101,Demo Doctor 101,LHN-TN-28,Lakshmi Hospital — Thoothukudi District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Anesthesiology,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0102,Demo Doctor 102,LHN-TN-28,Lakshmi Hospital — Thoothukudi District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,General Surgery,Evening,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0103,Demo Doctor 103,LHN-TN-22,Lakshmi Hospital — Ranipet District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Pediatrics,Day,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0104,Demo Doctor 104,LHN-TN-25,Lakshmi Hospital — Tenkasi District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Emergency Medicine,Day,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0105,Demo Doctor 105,LHN-TN-14,Lakshmi Hospital — Madurai District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,Anesthesiology,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0106,Demo Doctor 106,LHN-TN-23,Lakshmi Hospital — Salem District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Obstetrics & Gynecology,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0107,Demo Doctor 107,LHN-TN-29,Lakshmi Hospital — Tiruchirappalli District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Orthopedics,Evening,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0108,Demo Doctor 108,LHN-TN-17,Lakshmi Hospital — Namakkal District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Orthopedics,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0109,Demo Doctor 109,LHN-TN-19,Lakshmi Hospital — Perambalur District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,Pulmonology,Night,off_duty,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0110,Demo Doctor 110,LHN-TN-13,Lakshmi Hospital — Krishnagiri District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Pulmonology,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0111,Demo Doctor 111,LHN-TN-18,Lakshmi Hospital — Nilgiris District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,General Surgery,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0112,Demo Doctor 112,LHN-TN-08,Lakshmi Hospital — Erode District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Obstetrics & Gynecology,Evening,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0113,Demo Doctor 113,LHN-TN-19,Lakshmi Hospital — Perambalur District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Cardiology,Day,busy,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0114,Demo Doctor 114,LHN-TN-27,Lakshmi Hospital — Theni District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Obstetrics & Gynecology,Day,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0115,Demo Doctor 115,LHN-TN-16,Lakshmi Hospital — Nagapattinam District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,General Surgery,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0116,Demo Doctor 116,LHN-TN-38,Lakshmi Hospital — Virudhunagar District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,Orthopedics,Day,off_duty,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0117,Demo Doctor 117,LHN-TN-15,Lakshmi Hospital — Mayiladuthurai District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Emergency Medicine,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0118,Demo Doctor 118,LHN-TN-29,Lakshmi Hospital — Tiruchirappalli District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,Emergency Medicine,Day,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0119,Demo Doctor 119,LHN-TN-19,Lakshmi Hospital — Perambalur District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Cardiology,Evening,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0120,Demo Doctor 120,LHN-TN-02,Lakshmi Hospital — Chengalpattu District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Orthopedics,Evening,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0121,Demo Doctor 121,LHN-TN-22,Lakshmi Hospital — Ranipet District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Cardiology,Evening,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0122,Demo Doctor 122,LHN-TN-19,Lakshmi Hospital — Perambalur District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Anesthesiology,Evening,on_call,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0123,Demo Doctor 123,LHN-TN-35,Lakshmi Hospital — Tiruvarur District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,Emergency Medicine,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0124,Demo Doctor 124,LHN-TN-35,Lakshmi Hospital — Tiruvarur District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Anesthesiology,Evening,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0125,Demo Doctor 125,LHN-TN-01,Lakshmi Hospital — Ariyalur District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,Neurology,Night,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0126,Demo Doctor 126,LHN-TN-13,Lakshmi Hospital — Krishnagiri District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,Orthopedics,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0127,Demo Doctor 127,LHN-TN-34,Lakshmi Hospital — Tiruvannamalai District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,Emergency Medicine,Evening,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0128,Demo Doctor 128,LHN-TN-13,Lakshmi Hospital — Krishnagiri District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Obstetrics & Gynecology,Evening,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0129,Demo Doctor 129,LHN-TN-15,Lakshmi Hospital — Mayiladuthurai District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Anesthesiology,Night,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0130,Demo Doctor 130,LHN-TN-24,Lakshmi Hospital — Sivaganga District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Anesthesiology,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0131,Demo Doctor 131,LHN-TN-25,Lakshmi Hospital — Tenkasi District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Neurology,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0132,Demo Doctor 132,LHN-TN-19,Lakshmi Hospital — Perambalur District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,Anesthesiology,Day,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0133,Demo Doctor 133,LHN-TN-30,Lakshmi Hospital — Tirunelveli District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,General Medicine,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0134,Demo Doctor 134,LHN-TN-11,Lakshmi Hospital — Kanniyakumari District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,General Surgery,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0135,Demo Doctor 135,LHN-TN-25,Lakshmi Hospital — Tenkasi District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,Pulmonology,Evening,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0136,Demo Doctor 136,LHN-TN-26,Lakshmi Hospital — Thanjavur District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,Neurology,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0137,Demo Doctor 137,LHN-TN-06,Lakshmi Hospital — Dharmapuri District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,Pediatrics,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0138,Demo Doctor 138,LHN-TN-32,Lakshmi Hospital — Tiruppur District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Orthopedics,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0139,Demo Doctor 139,LHN-TN-27,Lakshmi Hospital — Theni District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Pulmonology,Night,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0140,Demo Doctor 140,LHN-TN-11,Lakshmi Hospital — Kanniyakumari District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Anesthesiology,Evening,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0141,Demo Doctor 141,LHN-TN-37,Lakshmi Hospital — Viluppuram District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Pediatrics,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0142,Demo Doctor 142,LHN-TN-01,Lakshmi Hospital — Ariyalur District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Orthopedics,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0143,Demo Doctor 143,LHN-TN-14,Lakshmi Hospital — Madurai District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Anesthesiology,Evening,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0144,Demo Doctor 144,LHN-TN-15,Lakshmi Hospital — Mayiladuthurai District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Neurology,Day,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0145,Demo Doctor 145,LHN-TN-02,Lakshmi Hospital — Chengalpattu District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Neurology,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0146,Demo Doctor 146,LHN-TN-01,Lakshmi Hospital — Ariyalur District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,Obstetrics & Gynecology,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0147,Demo Doctor 147,LHN-TN-21,Lakshmi Hospital — Ramanathapuram District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Anesthesiology,Evening,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0148,Demo Doctor 148,LHN-TN-14,Lakshmi Hospital — Madurai District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Pediatrics,Day,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0149,Demo Doctor 149,LHN-TN-25,Lakshmi Hospital — Tenkasi District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Orthopedics,Day,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0150,Demo Doctor 150,LHN-TN-33,Lakshmi Hospital — Tiruvallur District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,General Surgery,Day,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0151,Demo Doctor 151,LHN-TN-36,Lakshmi Hospital — Vellore District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Orthopedics,Day,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0152,Demo Doctor 152,LHN-TN-35,Lakshmi Hospital — Tiruvarur District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Pulmonology,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0153,Demo Doctor 153,LHN-TN-03,Lakshmi Hospital — Chennai District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,General Medicine,Evening,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0154,Demo Doctor 154,LHN-TN-03,Lakshmi Hospital — Chennai District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Neurology,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0155,Demo Doctor 155,LHN-TN-29,Lakshmi Hospital — Tiruchirappalli District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Pediatrics,Day,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0156,Demo Doctor 156,LHN-TN-11,Lakshmi Hospital — Kanniyakumari District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Pulmonology,Night,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0157,Demo Doctor 157,LHN-TN-08,Lakshmi Hospital — Erode District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,Pediatrics,Night,busy,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0158,Demo Doctor 158,LHN-TN-27,Lakshmi Hospital — Theni District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,Cardiology,Night,busy,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0159,Demo Doctor 159,LHN-TN-13,Lakshmi Hospital — Krishnagiri District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Cardiology,Day,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0160,Demo Doctor 160,LHN-TN-18,Lakshmi Hospital — Nilgiris District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Anesthesiology,Day,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0161,Demo Doctor 161,LHN-TN-38,Lakshmi Hospital — Virudhunagar District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Pulmonology,Night,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0162,Demo Doctor 162,LHN-TN-31,Lakshmi Hospital — Tirupathur District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Orthopedics,Night,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0163,Demo Doctor 163,LHN-TN-05,Lakshmi Hospital — Cuddalore District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,Orthopedics,Day,busy,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0164,Demo Doctor 164,LHN-TN-15,Lakshmi Hospital — Mayiladuthurai District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,Obstetrics & Gynecology,Day,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0165,Demo Doctor 165,LHN-TN-09,Lakshmi Hospital — Kallakurichi District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,General Medicine,Day,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0166,Demo Doctor 166,LHN-TN-16,Lakshmi Hospital — Nagapattinam District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,General Medicine,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0167,Demo Doctor 167,LHN-TN-26,Lakshmi Hospital — Thanjavur District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Emergency Medicine,Day,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0168,Demo Doctor 168,LHN-TN-02,Lakshmi Hospital — Chengalpattu District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Pediatrics,Day,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0169,Demo Doctor 169,LHN-TN-35,Lakshmi Hospital — Tiruvarur District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Neurology,Night,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0170,Demo Doctor 170,LHN-TN-02,Lakshmi Hospital — Chengalpattu District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Neurology,Day,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0171,Demo Doctor 171,LHN-TN-23,Lakshmi Hospital — Salem District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Pulmonology,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0172,Demo Doctor 172,LHN-TN-09,Lakshmi Hospital — Kallakurichi District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,General Medicine,Day,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0173,Demo Doctor 173,LHN-TN-12,Lakshmi Hospital — Karur District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,Emergency Medicine,Day,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0174,Demo Doctor 174,LHN-TN-12,Lakshmi Hospital — Karur District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Cardiology,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0175,Demo Doctor 175,LHN-TN-03,Lakshmi Hospital — Chennai District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,General Medicine,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0176,Demo Doctor 176,LHN-TN-19,Lakshmi Hospital — Perambalur District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,General Medicine,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0177,Demo Doctor 177,LHN-TN-26,Lakshmi Hospital — Thanjavur District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Anesthesiology,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0178,Demo Doctor 178,LHN-TN-33,Lakshmi Hospital — Tiruvallur District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Orthopedics,Night,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0179,Demo Doctor 179,LHN-TN-30,Lakshmi Hospital — Tirunelveli District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,General Surgery,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0180,Demo Doctor 180,LHN-TN-33,Lakshmi Hospital — Tiruvallur District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Orthopedics,Night,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0181,Demo Doctor 181,LHN-TN-25,Lakshmi Hospital — Tenkasi District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Cardiology,Evening,off_duty,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0182,Demo Doctor 182,LHN-TN-31,Lakshmi Hospital — Tirupathur District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Orthopedics,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0183,Demo Doctor 183,LHN-TN-35,Lakshmi Hospital — Tiruvarur District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Pulmonology,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0184,Demo Doctor 184,LHN-TN-37,Lakshmi Hospital — Viluppuram District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,Pediatrics,Evening,off_duty,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0185,Demo Doctor 185,LHN-TN-25,Lakshmi Hospital — Tenkasi District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,General Medicine,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0186,Demo Doctor 186,LHN-TN-37,Lakshmi Hospital — Viluppuram District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Pediatrics,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0187,Demo Doctor 187,LHN-TN-25,Lakshmi Hospital — Tenkasi District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Orthopedics,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0188,Demo Doctor 188,LHN-TN-10,Lakshmi Hospital — Kancheepuram District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,General Medicine,Evening,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0189,Demo Doctor 189,LHN-TN-33,Lakshmi Hospital — Tiruvallur District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Orthopedics,Evening,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0190,Demo Doctor 190,LHN-TN-11,Lakshmi Hospital — Kanniyakumari District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,General Surgery,Day,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0191,Demo Doctor 191,LHN-TN-10,Lakshmi Hospital — Kancheepuram District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,Anesthesiology,Night,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0192,Demo Doctor 192,LHN-TN-12,Lakshmi Hospital — Karur District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Pediatrics,Night,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0193,Demo Doctor 193,LHN-TN-17,Lakshmi Hospital — Namakkal District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,Emergency Medicine,Evening,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0194,Demo Doctor 194,LHN-TN-18,Lakshmi Hospital — Nilgiris District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Cardiology,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0195,Demo Doctor 195,LHN-TN-15,Lakshmi Hospital — Mayiladuthurai District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Orthopedics,Evening,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0196,Demo Doctor 196,LHN-TN-35,Lakshmi Hospital — Tiruvarur District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Neurology,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0197,Demo Doctor 197,LHN-TN-05,Lakshmi Hospital — Cuddalore District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,Emergency Medicine,Day,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0198,Demo Doctor 198,LHN-TN-16,Lakshmi Hospital — Nagapattinam District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,Orthopedics,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0199,Demo Doctor 199,LHN-TN-24,Lakshmi Hospital — Sivaganga District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,General Medicine,Day,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0200,Demo Doctor 200,LHN-TN-29,Lakshmi Hospital — Tiruchirappalli District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Orthopedics,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0201,Demo Doctor 201,LHN-TN-09,Lakshmi Hospital — Kallakurichi District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Obstetrics & Gynecology,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0202,Demo Doctor 202,LHN-TN-01,Lakshmi Hospital — Ariyalur District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,General Medicine,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0203,Demo Doctor 203,LHN-TN-24,Lakshmi Hospital — Sivaganga District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Obstetrics & Gynecology,Day,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0204,Demo Doctor 204,LHN-TN-32,Lakshmi Hospital — Tiruppur District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Obstetrics & Gynecology,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0205,Demo Doctor 205,LHN-TN-20,Lakshmi Hospital — Pudukkottai District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Pulmonology,Day,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0206,Demo Doctor 206,LHN-TN-08,Lakshmi Hospital — Erode District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,General Surgery,Evening,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0207,Demo Doctor 207,LHN-TN-20,Lakshmi Hospital — Pudukkottai District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Neurology,Day,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0208,Demo Doctor 208,LHN-TN-18,Lakshmi Hospital — Nilgiris District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,General Medicine,Evening,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0209,Demo Doctor 209,LHN-TN-34,Lakshmi Hospital — Tiruvannamalai District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Cardiology,Day,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0210,Demo Doctor 210,LHN-TN-21,Lakshmi Hospital — Ramanathapuram District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,Orthopedics,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0211,Demo Doctor 211,LHN-TN-25,Lakshmi Hospital — Tenkasi District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,Anesthesiology,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0212,Demo Doctor 212,LHN-TN-03,Lakshmi Hospital — Chennai District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Obstetrics & Gynecology,Day,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0213,Demo Doctor 213,LHN-TN-38,Lakshmi Hospital — Virudhunagar District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Cardiology,Night,on_call,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0214,Demo Doctor 214,LHN-TN-35,Lakshmi Hospital — Tiruvarur District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Anesthesiology,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0215,Demo Doctor 215,LHN-TN-36,Lakshmi Hospital — Vellore District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Emergency Medicine,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0216,Demo Doctor 216,LHN-TN-32,Lakshmi Hospital — Tiruppur District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Pediatrics,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0217,Demo Doctor 217,LHN-TN-03,Lakshmi Hospital — Chennai District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,General Medicine,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0218,Demo Doctor 218,LHN-TN-35,Lakshmi Hospital — Tiruvarur District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,General Medicine,Day,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0219,Demo Doctor 219,LHN-TN-02,Lakshmi Hospital — Chengalpattu District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,General Medicine,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0220,Demo Doctor 220,LHN-TN-12,Lakshmi Hospital — Karur District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Orthopedics,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0221,Demo Doctor 221,LHN-TN-38,Lakshmi Hospital — Virudhunagar District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Cardiology,Evening,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0222,Demo Doctor 222,LHN-TN-02,Lakshmi Hospital — Chengalpattu District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Pediatrics,Day,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0223,Demo Doctor 223,LHN-TN-31,Lakshmi Hospital — Tirupathur District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,General Medicine,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0224,Demo Doctor 224,LHN-TN-02,Lakshmi Hospital — Chengalpattu District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Emergency Medicine,Day,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0225,Demo Doctor 225,LHN-TN-22,Lakshmi Hospital — Ranipet District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Cardiology,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0226,Demo Doctor 226,LHN-TN-32,Lakshmi Hospital — Tiruppur District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,Cardiology,Evening,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0227,Demo Doctor 227,LHN-TN-23,Lakshmi Hospital — Salem District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Neurology,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0228,Demo Doctor 228,LHN-TN-22,Lakshmi Hospital — Ranipet District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,Pulmonology,Day,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0229,Demo Doctor 229,LHN-TN-24,Lakshmi Hospital — Sivaganga District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,General Surgery,Day,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0230,Demo Doctor 230,LHN-TN-34,Lakshmi Hospital — Tiruvannamalai District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Obstetrics & Gynecology,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0231,Demo Doctor 231,LHN-TN-38,Lakshmi Hospital — Virudhunagar District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,General Surgery,Evening,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0232,Demo Doctor 232,LHN-TN-26,Lakshmi Hospital — Thanjavur District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,Pediatrics,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0233,Demo Doctor 233,LHN-TN-04,Lakshmi Hospital — Coimbatore District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,Pediatrics,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0234,Demo Doctor 234,LHN-TN-31,Lakshmi Hospital — Tirupathur District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,Anesthesiology,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0235,Demo Doctor 235,LHN-TN-01,Lakshmi Hospital — Ariyalur District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Neurology,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0236,Demo Doctor 236,LHN-TN-19,Lakshmi Hospital — Perambalur District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Anesthesiology,Evening,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0237,Demo Doctor 237,LHN-TN-36,Lakshmi Hospital — Vellore District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Neurology,Day,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0238,Demo Doctor 238,LHN-TN-28,Lakshmi Hospital — Thoothukudi District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,Pulmonology,Night,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0239,Demo Doctor 239,LHN-TN-34,Lakshmi Hospital — Tiruvannamalai District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Pulmonology,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0240,Demo Doctor 240,LHN-TN-32,Lakshmi Hospital — Tiruppur District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,Anesthesiology,Day,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0241,Demo Doctor 241,LHN-TN-18,Lakshmi Hospital — Nilgiris District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Neurology,Evening,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0242,Demo Doctor 242,LHN-TN-16,Lakshmi Hospital — Nagapattinam District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Cardiology,Night,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0243,Demo Doctor 243,LHN-TN-01,Lakshmi Hospital — Ariyalur District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Pulmonology,Night,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0244,Demo Doctor 244,LHN-TN-33,Lakshmi Hospital — Tiruvallur District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Anesthesiology,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0245,Demo Doctor 245,LHN-TN-33,Lakshmi Hospital — Tiruvallur District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Anesthesiology,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0246,Demo Doctor 246,LHN-TN-19,Lakshmi Hospital — Perambalur District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Pulmonology,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0247,Demo Doctor 247,LHN-TN-11,Lakshmi Hospital — Kanniyakumari District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Orthopedics,Evening,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0248,Demo Doctor 248,LHN-TN-09,Lakshmi Hospital — Kallakurichi District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,General Surgery,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0249,Demo Doctor 249,LHN-TN-24,Lakshmi Hospital — Sivaganga District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Cardiology,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0250,Demo Doctor 250,LHN-TN-11,Lakshmi Hospital — Kanniyakumari District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Pulmonology,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0251,Demo Doctor 251,LHN-TN-28,Lakshmi Hospital — Thoothukudi District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,General Medicine,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0252,Demo Doctor 252,LHN-TN-30,Lakshmi Hospital — Tirunelveli District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Emergency Medicine,Night,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0253,Demo Doctor 253,LHN-TN-03,Lakshmi Hospital — Chennai District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,Anesthesiology,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0254,Demo Doctor 254,LHN-TN-03,Lakshmi Hospital — Chennai District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,General Medicine,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0255,Demo Doctor 255,LHN-TN-06,Lakshmi Hospital — Dharmapuri District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,Neurology,Evening,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0256,Demo Doctor 256,LHN-TN-34,Lakshmi Hospital — Tiruvannamalai District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Pediatrics,Day,on_call,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0257,Demo Doctor 257,LHN-TN-36,Lakshmi Hospital — Vellore District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Obstetrics & Gynecology,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0258,Demo Doctor 258,LHN-TN-08,Lakshmi Hospital — Erode District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,General Medicine,Day,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0259,Demo Doctor 259,LHN-TN-05,Lakshmi Hospital — Cuddalore District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,Pediatrics,Night,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0260,Demo Doctor 260,LHN-TN-02,Lakshmi Hospital — Chengalpattu District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,General Surgery,Evening,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0261,Demo Doctor 261,LHN-TN-24,Lakshmi Hospital — Sivaganga District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Obstetrics & Gynecology,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0262,Demo Doctor 262,LHN-TN-38,Lakshmi Hospital — Virudhunagar District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Cardiology,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0263,Demo Doctor 263,LHN-TN-02,Lakshmi Hospital — Chengalpattu District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Pediatrics,Day,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0264,Demo Doctor 264,LHN-TN-26,Lakshmi Hospital — Thanjavur District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Orthopedics,Day,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0265,Demo Doctor 265,LHN-TN-11,Lakshmi Hospital — Kanniyakumari District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,Cardiology,Night,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0266,Demo Doctor 266,LHN-TN-07,Lakshmi Hospital — Dindigul District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,General Medicine,Day,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0267,Demo Doctor 267,LHN-TN-19,Lakshmi Hospital — Perambalur District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,Cardiology,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0268,Demo Doctor 268,LHN-TN-26,Lakshmi Hospital — Thanjavur District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Anesthesiology,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0269,Demo Doctor 269,LHN-TN-11,Lakshmi Hospital — Kanniyakumari District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Pulmonology,Evening,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0270,Demo Doctor 270,LHN-TN-18,Lakshmi Hospital — Nilgiris District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Emergency Medicine,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0271,Demo Doctor 271,LHN-TN-19,Lakshmi Hospital — Perambalur District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Neurology,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0272,Demo Doctor 272,LHN-TN-29,Lakshmi Hospital — Tiruchirappalli District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Pediatrics,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0273,Demo Doctor 273,LHN-TN-03,Lakshmi Hospital — Chennai District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,Cardiology,Evening,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0274,Demo Doctor 274,LHN-TN-06,Lakshmi Hospital — Dharmapuri District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Pulmonology,Evening,off_duty,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0275,Demo Doctor 275,LHN-TN-23,Lakshmi Hospital — Salem District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Pediatrics,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0276,Demo Doctor 276,LHN-TN-21,Lakshmi Hospital — Ramanathapuram District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Emergency Medicine,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0277,Demo Doctor 277,LHN-TN-34,Lakshmi Hospital — Tiruvannamalai District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Obstetrics & Gynecology,Evening,off_duty,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0278,Demo Doctor 278,LHN-TN-24,Lakshmi Hospital — Sivaganga District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Neurology,Evening,on_call,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0279,Demo Doctor 279,LHN-TN-23,Lakshmi Hospital — Salem District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Cardiology,Day,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0280,Demo Doctor 280,LHN-TN-22,Lakshmi Hospital — Ranipet District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,Anesthesiology,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0281,Demo Doctor 281,LHN-TN-15,Lakshmi Hospital — Mayiladuthurai District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Neurology,Evening,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0282,Demo Doctor 282,LHN-TN-34,Lakshmi Hospital — Tiruvannamalai District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Orthopedics,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0283,Demo Doctor 283,LHN-TN-16,Lakshmi Hospital — Nagapattinam District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Cardiology,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0284,Demo Doctor 284,LHN-TN-27,Lakshmi Hospital — Theni District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,Neurology,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0285,Demo Doctor 285,LHN-TN-26,Lakshmi Hospital — Thanjavur District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Orthopedics,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0286,Demo Doctor 286,LHN-TN-30,Lakshmi Hospital — Tirunelveli District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Pulmonology,Day,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0287,Demo Doctor 287,LHN-TN-29,Lakshmi Hospital — Tiruchirappalli District (DEMO PLACEHOLDER; NOT VERIFIED),Neurology,Neurology,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0288,Demo Doctor 288,LHN-TN-31,Lakshmi Hospital — Tirupathur District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Pulmonology,Night,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0289,Demo Doctor 289,LHN-TN-16,Lakshmi Hospital — Nagapattinam District (DEMO PLACEHOLDER; NOT VERIFIED),Cardiology,Anesthesiology,Night,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0290,Demo Doctor 290,LHN-TN-12,Lakshmi Hospital — Karur District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,General Surgery,Day,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0291,Demo Doctor 291,LHN-TN-18,Lakshmi Hospital — Nilgiris District (DEMO PLACEHOLDER; NOT VERIFIED),Anesthesiology,Orthopedics,Evening,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0292,Demo Doctor 292,LHN-TN-16,Lakshmi Hospital — Nagapattinam District (DEMO PLACEHOLDER; NOT VERIFIED),Pediatrics,Emergency Medicine,Evening,busy,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0293,Demo Doctor 293,LHN-TN-06,Lakshmi Hospital — Dharmapuri District (DEMO PLACEHOLDER; NOT VERIFIED),Obstetrics & Gynecology,Anesthesiology,Night,busy,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0294,Demo Doctor 294,LHN-TN-12,Lakshmi Hospital — Karur District (DEMO PLACEHOLDER; NOT VERIFIED),Pulmonology,Orthopedics,Night,off_duty,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0295,Demo Doctor 295,LHN-TN-28,Lakshmi Hospital — Thoothukudi District (DEMO PLACEHOLDER; NOT VERIFIED),Orthopedics,Obstetrics & Gynecology,Day,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0296,Demo Doctor 296,LHN-TN-14,Lakshmi Hospital — Madurai District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Orthopedics,Evening,available,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0297,Demo Doctor 297,LHN-TN-38,Lakshmi Hospital — Virudhunagar District (DEMO PLACEHOLDER; NOT VERIFIED),General Medicine,Emergency Medicine,Day,off_duty,False,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0298,Demo Doctor 298,LHN-TN-37,Lakshmi Hospital — Viluppuram District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,General Surgery,Night,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0299,Demo Doctor 299,LHN-TN-17,Lakshmi Hospital — Namakkal District (DEMO PLACEHOLDER; NOT VERIFIED),General Surgery,Cardiology,Day,available,True,SYNTHETIC_DEMO_NOT_REAL
+SYN-DOC-0300,Demo Doctor 300,LHN-TN-36,Lakshmi Hospital — Vellore District (DEMO PLACEHOLDER; NOT VERIFIED),Emergency Medicine,Obstetrics & Gynecology,Day,off_duty,False,SYNTHETIC_DEMO_NOT_REAL

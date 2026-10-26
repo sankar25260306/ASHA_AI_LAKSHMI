@@ -1,0 +1,15 @@
+ASHA AI — LAKSHMI HOSPITAL NETWORK + PHARMACY (DEMO)
+
+1) Extract this ZIP to a folder.
+2) On Windows, double-click start_backend_windows.bat and keep the terminal open.
+3) Double-click start_frontend_windows.bat.
+4) Open the frontend shown by the script. API docs: http://127.0.0.1:8000/docs
+5) On the login screen, first select your assigned role, then type the username and password issued to your account.
+6) The fresh local demo bootstrap account is role Super Admin, username superadmin, password ASHA-Demo-2026! — documented for local setup only; it is no longer prefilled or shown in the login UI.
+7) On first login, enter a new password of at least 12 characters when prompted. The selected role must match the role assigned to that account; selecting a different role does not grant privileges.
+
+IMPORTANT:
+- The 38 Tamil Nadu district branch entries are unverified placeholders, NOT proof of real Lakshmi Hospital branches.
+- Pharmacy quantities and medicine records are synthetic demo values, NOT live stock and must not be used to dispense medicine.
+- This is not production-ready. The new network/pharmacy endpoints have role checks and branch scoping, but the existing legacy prototype APIs have not all been protected by the new authorization system. Do not expose publicly or enter real patient data.
+- Database-at-rest encryption, production HTTPS/TLS, real MFA, formal security review, authorized hospital feeds and clinical/privacy approvals remain required before any real-world pilot.

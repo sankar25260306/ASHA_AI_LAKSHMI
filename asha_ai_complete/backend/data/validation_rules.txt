@@ -1,0 +1,47 @@
+ASHA AI SYNTHETIC DATASET — VALIDATION RULES
+================================================
+
+LABEL AND SAFETY
+- Every row must have data_label = SYNTHETIC_DEMO_NOT_REAL.
+- Every row must have clinical_decision_use = NOT_FOR_REAL_PATIENT_CARE.
+- human_review_required must always be True.
+- All hospital IDs begin with SYN-HOSP-. All ambulance and doctor IDs in future extensions should use SYN- prefixes.
+- Coordinates are generated demo-only values, not facility locations.
+
+TIMESTAMPS
+- event_timestamp_utc and reported_timestamp_utc must be ISO-8601 UTC timestamps.
+- reported_timestamp_utc must be less than or equal to event_timestamp_utc.
+- data_age_minutes is a simulated age label; it is not guaranteed to equal timestamp difference because this is generated scenario data.
+
+RESOURCE CONSTRAINTS
+- total_beds >= 1; 0 <= occupied_beds <= total_beds.
+- available_beds = total_beds - occupied_beds.
+- total_icu_beds >= 1; 0 <= occupied_icu_beds <= total_icu_beds.
+- available_icu_beds = total_icu_beds - occupied_icu_beds.
+- 0 <= ventilators_available <= ventilators_total.
+- 0 <= oxygen_level_pct <= 100.
+- blood_units_demo_only >= 0.
+- 0 <= ambulances_available <= ambulances_total.
+- urgency_1_to_5 must be an integer in [1, 5].
+- patients_waiting_demo_only >= 0.
+- resource_pressure_count is an illustrative threshold count in [0, 7].
+- prototype_recommendation is an illustrative rule-based output, not a clinical decision.
+
+DATA QUALITY SCENARIOS
+- missing_field_injected is populated only for rows marked missing_data.
+- sensor_conflict_flag is true exactly when verification_status = conflict_detected.
+- verification_status is one of verified, needs_review, conflict_detected, stale_data, missing_data.
+- These are simulated labels for testing the Self-Doubt Engine. They are not based on actual sensor/hospital feeds.
+
+ML SPLIT
+- ml_split is deterministic: 80% train and 20% test.
+- Recommended target for a software demo: verification_status or prototype_recommendation.
+- Avoid claiming medical prediction performance or real-world generalization from synthetic data.
+- Split is row-based, not time-based or hospital-group-based; use grouped/time splits before evaluating on real data.
+
+PRODUCTION READINESS
+- Do not connect these values to real patient-care decisions.
+- Replace synthetic sources only with authorized, documented integrations and log source timestamps.
+- A human operator must verify resource availability with the source institution.
+
+Lakshmi-only scope: branch records are DEMO_UNVERIFIED placeholders, not real verified franchises. All inventory data is synthetic and not for real dispensing.

@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>ASHA AI | Emergency Care Logistics</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brandmark">✚</div>
+      <div><b>ASHA <span>AI</span></b><small>Emergency Care Logistics</small></div>
+    </div>
+    <nav id="nav"><button class="nav active" data-page="dashboard">▦ <span>Dashboard</span></button><button class="nav"
+        data-page="hospitals">✚ <span>Hospitals</span></button><button class="nav" data-page="resources">♙ <span>Staff &
+          Facilities</span></button><button class="nav" data-page="ambulances">🚑
+        <span>Ambulances</span></button><button class="nav" data-page="emergency">⚠ <span>Emergency
+          Requests</span></button><button class="nav" data-page="verify">◎ <span>Self-Doubt
+          Engine</span></button><button class="nav" data-page="recommendations">✧ <span>AI
+          Recommendations</span></button><button class="nav" data-page="agents">🧠 <span>Multi-Agent
+          AI</span></button><button class="nav" data-page="reports">▤ <span>Reports & Logs</span></button><button
+        class="nav" data-page="network">💊 <span>Pharmacy</span></button></nav>
+    <div class="sidebar-note"><span class="pulse"></span> Prototype environment<small>Demo data only · Not connected to
+        emergency services.</small></div>
+  </aside>
+  <main class="main">
+    <div class="network-banner"><span class="banner-mark">!</span>
+      <div><strong>LAKSHMI-ONLY NETWORK</strong><span>Demo placeholders only · No other hospitals included · Not live
+          hospital or pharmacy data</span></div>
+    </div>
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">EMERGENCY OPERATIONS / <span id="crumb">OVERVIEW</span></div>
+        <h1 id="pageTitle">Operations Dashboard</h1>
+      </div>
+      <div class="top-actions"><span class="live"><i></i> SIMULATED FEED</span><button class="iconbtn"
+          title="Notifications" onclick="showToast('No new system notifications')">♧ <b class="badge">3</b></button>
+        <div class="operator">
+          <div class="avatar">OP</div>
+          <div><b>Control Room</b><small>Operator account</small></div>
+        </div>
+      </div>
+    </header>
+    <div class="notice"><b>⚠ Research prototype</b><span>All resource values and alerts are simulated. Verify
+        information with authorized emergency services before taking action.</span></div>
+    <section id="dashboardPage" class="page">
+      <div class="metrics">
+        <div class="metric">
+          <div class="metric-icon cyan">✚</div>
+          <div><small>District placeholders</small><strong id="hospitalCount">38</strong><em>Unverified demo
+              entries</em></div><span class="metric-symbol">⌂</span>
+        </div>
+        <div class="metric">
+          <div class="metric-icon blue">▱</div>
+          <div><small>Available beds</small><strong id="bedsMetric">-- <sub>/ --</sub></strong><em class="good"
+              id="bedsPercent">Dataset aggregate</em></div>
+          <div class="ring ring-cyan" id="bedsRing">--</div>
+        </div>
+        <div class="metric">
+          <div class="metric-icon red">▣</div>
+          <div><small>ICU beds available</small><strong id="icuMetric">-- <sub>/ --</sub></strong><em
+              class="warn">Synthetic — verify</em></div>
+          <div class="ring ring-red" id="icuRing">--</div>
+        </div>
+        <div class="metric">
+          <div class="metric-icon green">🚑</div>
+          <div><small>Available ambulances</small><strong id="ambulanceCount">02 <sub>/ 03</sub></strong><em
+              class="warn">No verified fleet connected</em></div>
+          <div class="ring ring-green">—</div>
+        </div>
+      </div>
+      <div class="metrics secondary">
+        <div class="metric compact">
+          <div class="metric-icon blue">♙</div>
+          <div><small>Doctors on roster</small><strong id="doctorsMetric">--</strong><em>Synthetic roster aggregate</em>
+          </div>
+        </div>
+        <div class="metric compact">
+          <div class="metric-icon amber">◉</div>
+          <div><small>Blood units</small><strong id="bloodMetric">--</strong><em class="warn">Synthetic stock only</em>
+          </div>
+        </div>
+        <div class="metric compact">
+          <div class="metric-icon cyan">♧</div>
+          <div><small>Oxygen cylinders</small><strong id="oxygenMetric">--</strong><em class="good">Average synthetic
+              level (%)</em></div>
+        </div>
+        <div class="metric compact">
+          <div class="metric-icon violet">♧</div>
+          <div><small>Ventilators</small><strong id="ventMetric">-- <sub>/ --</sub></strong><em>Synthetic inventory</em>
+          </div>
+        </div>
+      </div>
+      <div class="content-grid">
+        <div class="panel map-panel">
+          <div class="panel-head">
+            <div>
+              <h2>Regional Resource Overview</h2>
+              <p>Illustrative locations · Not live GPS</p>
+            </div><span class="tag cyan-tag">● DEMO MAP</span>
+          </div>
+          <div class="map">
+            <div class="road road1"></div>
+            <div class="road road2"></div>
+            <div class="road road3"></div>
+            <div class="river"></div><span class="map-label loc1">DINDIGUL</span><span
+              class="map-label loc2">NATHAM</span><span class="map-label loc3">MADURAI</span><span
+              class="pin hospital pin1">✚</span><span class="pin ambulance pin2">🚑</span><span
+              class="pin hospital pin3">✚</span><span class="pin warning pin4">!</span><span
+              class="pin ambulance pin5">🚑</span>
+            <div class="map-legend"><span><i class="legend-h"></i> Hospitals</span><span><i class="legend-a"></i>
+                Ambulances</span><span><i class="legend-w"></i> Needs verification</span></div>
+          </div>
+          <div class="map-foot"><span><i class="dot green-dot"></i> Demo resources loaded</span><button class="textbtn"
+              onclick="navigate('hospitals')">View resource list →</button></div>
+        </div>
+        <div class="panel alerts-panel">
+          <div class="panel-head">
+            <div>
+              <h2>Priority Alerts</h2>
+              <p>Example operational signals</p>
+            </div><span class="count">03</span>
+          </div>
+          <div class="alert-list" id="datasetAlerts">
+            <div class="alert-row"><span class="alert-icon caution">◉</span>
+              <div><b>Loading dataset signals</b><small>Reading synthetic records…</small></div><span
+                class="severity medium">DEMO</span>
+            </div>
+          </div><button class="outline full" onclick="navigate('emergency')">Review emergency requests →</button>
+        </div>
+      </div>
+      <div class="content-grid lower-grid">
+        <div class="panel">
+          <div class="panel-head">
+            <div>
+              <h2>District Resource Samples</h2>
+              <p>Illustrative averages by district · not verified branches or live availability</p>
+            </div><button class="textbtn" onclick="navigate('hospitals')">View all →</button>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Hospital</th>
+                  <th>Area</th>
+                  <th>Beds</th>
+                  <th>ICU</th>
+                  <th>Oxygen</th>
+                  <th>Data status</th>
+                </tr>
+              </thead>
+              <tbody id="hospitalRows">
+                <tr>
+                  <td colspan="6">Loading demo records…</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="panel-head">
+            <div>
+              <h2>AI Recommendations</h2>
+              <p>Decision support — human approval required</p>
+            </div><span class="spark">✧</span>
+          </div>
+          <div id="datasetRecommendations">
+            <div class="recommend"><span class="recommend-num">01</span>
+              <div><b>Loading dataset analysis</b><small>Aggregating synthetic verification signals.</small></div><span
+                class="severity medium">DEMO</span>
+            </div>
+          </div><button class="primary full" onclick="navigate('verify')">Open Self-Doubt Engine →</button>
+        </div>
+      </div>
+    </section>
+    <section id="hospitalsPage" class="page hidden">
+      <div class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>Lakshmi Hospital District Placeholders</h2>
+            <p>Sample resource averages by district · franchise affiliation unverified</p>
+          </div><button class="outline" onclick="loadData()">↻ Refresh demo data</button>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Hospital</th>
+                <th>Area</th>
+                <th>Available beds · sample avg</th>
+                <th>Available ICU · sample avg</th>
+                <th>Oxygen sample</th>
+                <th>Sample age</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="hospitalRowsFull"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="resourcesPage" class="page hidden">
+      <div class="panel" style="margin-bottom:18px">
+        <div class="panel-head">
+          <div>
+            <h2>Staff & Hospital Facilities Directory</h2>
+            <p>Individual synthetic records for doctors, nurses, beds, blood stock, ambulances, equipment and medicines.
+            </p>
+          </div><button class="outline" onclick="loadResources()">↻ Refresh records</button>
+        </div>
+        <div id="resourceSummary" class="metrics secondary"></div>
+        <p style="color:var(--amber);font-size:12px">SYNTHETIC DEMO ONLY — these are fictional people, stock values and
+          facility statuses, not live hospital information.</p>
+      </div>
+      <div class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>Resource category</h2>
+            <p>Filter records by type and optional hospital ID.</p>
+          </div>
+        </div>
+        <div class="inline-form"><label>Category<select id="resourceType" onchange="loadResources()">
+              <option value="doctors">Doctors</option>
+              <option value="nurses">Nurses</option>
+              <option value="beds">Beds & wards</option>
+              <option value="blood">Blood bank</option>
+              <option value="ambulances">Ambulance fleet & equipment</option>
+              <option value="equipment">Medical equipment</option>
+              <option value="medicines">Medicines & supplies</option>
+              <option value="snapshots">Hospital Resource Snapshots (1,000)</option>
+            </select></label><label>Hospital ID (optional)<input id="resourceHospital" placeholder="e.g. SYN-HOSP-001"
+              onchange="loadResources()"></label><button class="primary" onclick="loadResources()">Load records</button>
+        </div>
+        <div id="resourceTableInfo" class="status-line"></div>
+        <div class="table-wrap">
+          <table>
+            <thead id="resourceHead"></thead>
+            <tbody id="resourceRows">
+              <tr>
+                <td>Choose a resource category to load records.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pagination-controls" id="resourcePagination" aria-live="polite"></div>
+      </div>
+    </section>
+    <section id="ambulancesPage" class="page hidden">
+      <div class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>Ambulance Fleet & Equipment</h2>
+            <p>Vehicle type, sample status, crew label, onboard equipment and branch placeholder.</p>
+          </div><span class="tag amber-tag">SYNTHETIC DEMO ONLY</span>
+        </div>
+        <div id="ambulanceSummary" class="metrics secondary"></div>
+        <div class="inline-form ambulance-filters">
+          <label>Search vehicle / district<input id="ambulanceSearch" type="search"
+              placeholder="e.g. SYN-AMB-001 or Coimbatore" oninput="filterAmbulances()"></label>
+          <label>Status<select id="ambulanceStatusFilter" onchange="filterAmbulances()">
+              <option value="all">All statuses</option>
+              <option value="available">Available (demo)</option>
+              <option value="dispatched">Dispatched (demo)</option>
+              <option value="on_scene">On scene (demo)</option>
+              <option value="returning">Returning (demo)</option>
+              <option value="maintenance">Maintenance (demo)</option>
+            </select></label>
+          <label>Ambulance type<select id="ambulanceTypeFilter" onchange="filterAmbulances()">
+              <option value="all">All types</option>
+              <option value="BLS">BLS</option>
+              <option value="ALS">ALS</option>
+            </select></label>
+          <button class="outline" onclick="loadData()">↻ Refresh fleet</button>
+        </div>
+        <div id="ambulanceNotice" class="ambulance-demo-notice">DEMO DATA — no verified Lakshmi Hospital ambulance fleet
+          or live GPS is connected. Do not use these records for real dispatch.</div>
+        <div id="ambulanceResultsInfo" class="status-line"></div>
+        <div id="ambulanceCards" class="fleet-grid"></div>
+      </div>
+    </section>
+    <section id="emergencyPage" class="page hidden">
+      <div class="content-grid">
+        <div class="panel">
+          <div class="panel-head">
+            <div>
+              <h2>Submit a Demo Emergency Case</h2>
+              <p>Use synthetic details only; do not enter real patient information.</p>
+            </div>
+          </div>
+          <form id="caseForm" class="form-grid"><label>Area / location<input id="area" required value="Natham"
+                maxlength="100"></label><label>Age (optional)<input id="age" type="number" min="0" max="120"
+                placeholder="e.g. 45"></label><label>Heart rate (bpm)<input id="heart" type="number" min="0" max="300"
+                placeholder="Optional"></label><label>SpO₂ (%)<input id="spo2" type="number" min="0" max="100"
+                step="0.1" placeholder="Optional"></label><label>Temperature (°C)<input id="temp" type="number" min="25"
+                max="45" step="0.1" placeholder="Optional"></label><label class="check-label"><input id="icu"
+                type="checkbox"> ICU requested (demo)</label>
+            <fieldset>
+              <legend>Reported symptoms</legend>
+              <div class="checks"><label><input type="checkbox" name="symptom" value="breathing difficulty"> Breathing
+                  difficulty</label><label><input type="checkbox" name="symptom" value="chest pain"> Chest
+                  pain</label><label><input type="checkbox" name="symptom" value="injury"> Injury</label><label><input
+                    type="checkbox" name="symptom" value="fever"> Fever</label><label><input type="checkbox"
+                    name="symptom" value="unconsciousness"> Unconsciousness</label></div>
+            </fieldset><button class="primary" type="submit">Analyze demo case →</button>
+          </form>
+        </div>
+        <div class="panel">
+          <div class="panel-head">
+            <div>
+              <h2>Case Analysis</h2>
+              <p>Uncertainty checks, not diagnosis</p>
+            </div>
+          </div>
+          <div id="caseResult" class="empty-state">
+            <div class="empty-icon">◎</div><b>No case analyzed yet</b>
+            <p>Fill in synthetic case information and run the verification workflow.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="verifyPage" class="page hidden">
+      <div class="content-grid">
+        <div class="panel">
+          <div class="panel-head">
+            <div>
+              <h2>Self-Doubt Engine</h2>
+              <p>Checks missing, stale or uncertain information.</p>
+            </div><span class="tag amber-tag">HUMAN REVIEW</span>
+          </div>
+          <div class="engine-step"><span>01</span>
+            <div><b>Input completeness</b>
+              <p>Checks whether location, age, symptoms and optional vital signs are supplied.</p>
+            </div>
+          </div>
+          <div class="engine-step"><span>02</span>
+            <div><b>Uncertainty identification</b>
+              <p>Lists missing or conflicting information rather than guessing.</p>
+            </div>
+          </div>
+          <div class="engine-step"><span>03</span>
+            <div><b>Independent verification</b>
+              <p>Prompts an operator to verify details with an authorized source.</p>
+            </div>
+          </div>
+          <div class="engine-step"><span>04</span>
+            <div><b>Human approval</b>
+              <p>Resource matching remains a demo suggestion and needs manual confirmation.</p>
+            </div>
+          </div><button class="primary" onclick="navigate('emergency')">Start a demo verification →</button>
+        </div>
+        <div class="panel">
+          <div class="panel-head">
+            <div>
+              <h2>Design Principles</h2>
+              <p>Safety-first decision support</p>
+            </div>
+          </div>
+          <div class="principle"><b>⚑ No silent assumptions</b>
+            <p>Missing data is explicitly surfaced to the operator.</p>
+          </div>
+          <div class="principle"><b>◷ Freshness matters</b>
+            <p>Old resource records are marked for verification.</p>
+          </div>
+          <div class="principle"><b>♙ Human in the loop</b>
+            <p>No automatic dispatch, diagnosis or treatment decisions.</p>
+          </div>
+          <div class="principle"><b>▤ Traceability</b>
+            <p>API responses identify simulated data and research-only outputs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="recommendationsPage" class="page hidden">
+      <div class="panel" style="margin-bottom:18px">
+        <div class="panel-head">
+          <div>
+            <h2>AI/ML Resource Shortage Pattern Analysis</h2>
+            <p>Random Forest model · synthetic training data only · not a real-world forecast.</p>
+          </div><span class="tag cyan-tag" id="mlModelStatus">Checking model…</span>
+        </div>
+        <form id="mlRiskForm" class="form-grid ml-risk-form">
+          <label>Current occupancy (%)<input id="mlOccupancy" type="number" min="0" max="100" step="1" value="82"
+              required></label>
+          <label>Emergency arrivals last hour<input id="mlArrivals" type="number" min="0" max="200" value="12"
+              required></label>
+          <label>Available ambulances (demo)<input id="mlAmbulances" type="number" min="0" max="500" value="3"
+              required></label>
+          <label>Available ICU beds (demo)<input id="mlIcuBeds" type="number" min="0" max="500" value="2"
+              required></label>
+          <label>Staffing coverage (%)<input id="mlStaffing" type="number" min="0" max="100" step="1" value="65"
+              required></label>
+          <label>Weather disruption index (0–1)<input id="mlWeather" type="number" min="0" max="1" step="0.1"
+              value="0.4" required></label>
+          <label>Public event index (0–1)<input id="mlEvent" type="number" min="0" max="1" step="0.1" value="0.2"
+              required></label>
+          <button class="primary" type="submit">Run AI/ML demo analysis</button>
+        </form>
+        <div id="mlRiskResult" class="result-area">
+          <p>Enter sample resource conditions and run the model to see its demo output.</p>
+        </div>
+        <p class="muted">AI/ML output is based on generated synthetic labels. It is for a college demonstration only,
+          not for patient care, live hospital planning, dispatch, or clinical decisions. Human review is required.</p>
+      </div>
+      <div class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>Resource Matching Sandbox</h2>
+            <p>Ranks synthetic options and flags stale records; not for real-world dispatch.</p>
+          </div>
+        </div>
+        <form id="matchForm" class="inline-form"><label>Area<input id="matchArea" value="Natham"></label><label
+            class="check-label"><input id="matchIcu" type="checkbox"> ICU required</label><button class="primary">Run
+            demo matching</button></form>
+        <div id="matchResult" class="result-area">Run the matcher to view sample resource options.</div>
+      </div>
+    </section>
+    <section id="agentsPage" class="page hidden">
+      <div class="notice"><b>Multi-agent demo</b><span>Specialist agents inspect synthetic hospital, ambulance and
+          pharmacy aggregates. LLM explanations are optional and must not control clinical or dispatch actions.</span>
+      </div>
+      <div class="content-grid agent-top-grid">
+        <div class="panel">
+          <div class="panel-head">
+            <div>
+              <h2>Multi-Agent Logistics Analysis</h2>
+              <p>Choose a safe demo analysis. The system gathers evidence independently, checks uncertainty, then
+                summarizes.</p>
+            </div><span class="tag cyan-tag">AGENT WORKFLOW</span>
+          </div>
+          <form id="agentAnalysisForm" class="form-grid">
+            <label>Analysis type<select id="agentAnalysisType">
+                <option value="network_readiness">Network readiness overview</option>
+                <option value="pharmacy_risk">Pharmacy stock / expiry risk</option>
+                <option value="ambulance_readiness">Ambulance readiness</option>
+                <option value="data_quality">Data quality & uncertainty</option>
+              </select></label>
+            <label>District scope<select id="agentDistrict">
+                <option value="">All demo districts</option>
+                <option>Ariyalur</option>
+                <option>Chengalpattu</option>
+                <option>Chennai</option>
+                <option>Coimbatore</option>
+                <option>Cuddalore</option>
+                <option>Dharmapuri</option>
+                <option>Dindigul</option>
+                <option>Erode</option>
+                <option>Kallakurichi</option>
+                <option>Kancheepuram</option>
+                <option>Kanniyakumari</option>
+                <option>Karur</option>
+                <option>Krishnagiri</option>
+                <option>Madurai</option>
+                <option>Mayiladuthurai</option>
+                <option>Nagapattinam</option>
+                <option>Namakkal</option>
+                <option>Nilgiris</option>
+                <option>Perambalur</option>
+                <option>Pudukkottai</option>
+                <option>Ramanathapuram</option>
+                <option>Ranipet</option>
+                <option>Salem</option>
+                <option>Sivaganga</option>
+                <option>Tenkasi</option>
+                <option>Thanjavur</option>
+                <option>Theni</option>
+                <option>Thoothukudi</option>
+                <option>Tiruchirappalli</option>
+                <option>Tirunelveli</option>
+                <option>Tirupathur</option>
+                <option>Tiruppur</option>
+                <option>Tiruvallur</option>
+                <option>Tiruvannamalai</option>
+                <option>Tiruvarur</option>
+                <option>Vellore</option>
+                <option>Viluppuram</option>
+                <option>Virudhunagar</option>
+              </select></label>
+            <button class="primary" type="submit">Run multi-agent analysis →</button>
+          </form>
+          <div id="agentRuntimeStatus" class="result-box">
+            <h3>Agent runtime</h3>
+            <p>Sign in and check agent runtime status.</p>
+          </div>
+          <div class="autonomous-console">
+            <div class="panel-head">
+              <div>
+                <h3>Autonomous Watch</h3>
+                <p>Background monitoring runs threshold checks and records review alerts.</p>
+              </div><span class="tag cyan-tag">BOUNDED AUTONOMY</span>
+            </div>
+            <div id="autonomousStatusCard" class="result-box">
+              <h3>Checking monitor…</h3>
+              <p>Waiting for secure status response.</p>
+            </div>
+            <div class="inline-form autonomous-controls">
+              <button class="primary" type="button" id="autonomousRunBtn">Run monitoring now</button>
+              <button class="outline" type="button" id="autonomousToggleBtn">Pause monitoring</button>
+              <button class="outline" type="button" id="autonomousRefreshBtn">Refresh status</button>
+            </div>
+            <div id="autonomousRunResult" class="empty-state autonomous-run-result">The monitor will collect aggregate
+              synthetic data, flag issues and save a run log.</div>
+            <p class="muted">Autonomous actions are limited to monitoring, verification flags, alert creation and local
+              logs. Ambulance dispatch, clinical decisions, treatment, pharmacy orders and stock changes require
+              authorized human approval.</p>
+          </div>
+          <p class="muted">If Ollama is installed locally with the configured model, the LLM creates the explanation.
+            Otherwise, the deterministic agent workflow still works and clearly reports fallback mode. No API key is
+            bundled.</p>
+        </div>
+        <div class="panel">
+          <div class="panel-head">
+            <div>
+              <h2>Orchestration flow</h2>
+              <p>Independent data tools + verification + optional LLM explanation.</p>
+            </div>
+          </div>
+          <div class="engine-step"><span>01</span>
+            <div><b>Hospital Resource Agent</b>
+              <p>Reads demo bed, ICU, oxygen and freshness summaries.</p>
+            </div>
+          </div>
+          <div class="engine-step"><span>02</span>
+            <div><b>Ambulance Operations Agent</b>
+              <p>Summarizes demo fleet status and equipment labels; GPS/ETA remain unavailable.</p>
+            </div>
+          </div>
+          <div class="engine-step"><span>03</span>
+            <div><b>Pharmacy Inventory Agent</b>
+              <p>Checks sample stock quantity, reorder and expiry flags.</p>
+            </div>
+          </div>
+          <div class="engine-step"><span>04</span>
+            <div><b>Self-Doubt / Verification Agent</b>
+              <p>Flags unverified, stale or incomplete data before the summary.</p>
+            </div>
+          </div>
+          <div class="engine-step"><span>05</span>
+            <div><b>LLM Orchestrator</b>
+              <p>Explains the already-gathered aggregate evidence; it cannot create dispatch or treatment actions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel agent-output-panel">
+        <div class="panel-head">
+          <div>
+            <h2>Agent findings</h2>
+            <p id="agentResultSubtitle">Run an analysis to show specialist findings and the final explanation.</p>
+          </div><span class="tag amber-tag">SYNTHETIC DATA</span>
+        </div>
+        <div id="agentAnalysisResult" class="empty-state">
+          <div class="empty-icon">🧠</div><b>No analysis run yet</b>
+          <p>Choose an analysis type and start the workflow. Outputs are demo summaries only.</p>
+        </div>
+      </div>
+    </section>
+    <section id="reportsPage" class="page hidden">
+      <div class="panel" style="margin-bottom:18px">
+        <div class="panel-head">
+          <div>
+            <h2>Bundled Dataset Status</h2>
+            <p>Connected CSV · Synthetic records only</p>
+          </div><span class="tag cyan-tag" id="datasetBadge">Loading…</span>
+        </div>
+        <div id="datasetSummaryText">Loading 10,000-row dataset summary…</div>
+      </div>
+      <div class="content-grid">
+        <div class="panel">
+          <h2>Prototype Status</h2>
+          <div class="status-line"><span>Backend API</span><b id="apiStatus" class="status-pill">Checking…</b></div>
+          <div class="status-line"><span>Resource source</span><b class="status-pill warning-pill">Simulated</b></div>
+          <div class="status-line"><span>Real-time hospital integration</span><b class="status-pill warning-pill">Not
+              connected</b></div>
+          <div class="status-line"><span>Clinical validation</span><b class="status-pill warning-pill">Not validated</b>
+          </div><button class="outline" onclick="loadData()">Refresh system status</button>
+        </div>
+        <div class="panel">
+          <h2>System Notes</h2>
+          <ul class="notes">
+            <li>10,000-row AI research dataset, 1,000 pharmacy rows, and 1,000 hospital-resource snapshots are synthetic
+              demo records.</li>
+            <li>Pharmacy inventory and resource snapshot CSVs are connected to the backend APIs. Dashboard resource
+              figures are illustrative sample summaries, not live updates.</li>
+            <li>Do not enter real personal or medical data.</li>
+            <li>Real deployments require authorized data feeds, security review, validation, and emergency-service
+              agreements.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="networkPage" class="page hidden">
+      <div class="metrics secondary pharmacy-summary-metrics">
+        <div class="metric compact">
+          <div><small>Pharmacy records</small><strong id="pharmacyRecordCount">—</strong><em>Synthetic demo rows</em>
+          </div>
+        </div>
+        <div class="metric compact">
+          <div><small>Low-stock alerts</small><strong id="pharmacyLowCount">—</strong><em class="warn">Review sample
+              only</em></div>
+        </div>
+        <div class="metric compact">
+          <div><small>Expiry alerts ≤90 days</small><strong id="pharmacyExpiryCount">—</strong><em class="warn">Verify
+              with pharmacist</em></div>
+        </div>
+        <div class="metric compact">
+          <div><small>Available units</small><strong id="pharmacyAvailableUnits">—</strong><em>Synthetic
+              calculation</em></div>
+        </div>
+      </div>
+      <div class="panel pharmacy-panel">
+        <div class="panel-head">
+          <div>
+            <h2>Pharmacy Stock</h2>
+            <p>Search tablet, capsule and sachet stock by medicine; review available quantities and expiry alerts.</p>
+          </div><span class="tag amber-tag">DEMO DATA</span>
+        </div>
+        <div class="inline-form pharmacy-search"><label>Search medicine<input id="pharmacySearch"
+              placeholder="e.g. Paracetamol"></label><label class="check-label"><input id="pharmacyAlertsOnly"
+              type="checkbox"> Low stock / expiry alerts only</label><button class="primary"
+            onclick="loadPharmacy()">Search stock</button></div>
+        <div class="table-wrap pharmacy-table">
+          <table>
+            <thead>
+              <tr>
+                <th>District</th>
+                <th>Medicine</th>
+                <th>Form</th>
+                <th>Available</th>
+                <th>Reorder level</th>
+                <th>Expiry</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="pharmacyRows">
+              <tr>
+                <td colspan="7">Sign in and load stock.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pagination-controls" id="pharmacyPagination" aria-live="polite"></div>
+        <p class="muted">Medicine stock is synthetic and unverified. Do not use it for dispensing or clinical decisions.
+        </p>
+      </div>
+      <div class="panel pharmacy-panel" style="margin-top:16px">
+        <div class="panel-head">
+          <div>
+            <h2>Add / Update Pharmacy Stock</h2>
+            <p>For authorized pharmacy staff. All new demo records are marked unverified.</p>
+          </div>
+        </div>
+        <form id="stockForm" class="form-grid"><label>Branch ID<input id="stockBranch" required
+              placeholder="LHN-TN-01"></label><label>Medicine code<input id="stockCode" required
+              placeholder="MED-XXX-500"></label><label>Medicine name<input id="stockName" required
+              placeholder="Medicine name"></label><label>Dosage / strength<input id="stockDosage" required
+              placeholder="500 mg"></label><label>Form<input id="stockFormType" required
+              value="tablet"></label><label>Stock quantity<input id="stockQty" type="number" min="0" required
+              value="0"></label><label>Reserved quantity<input id="stockReserved" type="number" min="0" required
+              value="0"></label><label>Reorder level<input id="stockReorder" type="number" min="0" required
+              value="10"></label><label>Expiry date<input id="stockExpiry" type="date"
+              required></label><label>Prescription category<input id="stockRx" required
+              value="VERIFY_WITH_PHARMACIST"></label><button class="primary" type="submit">Add stock record</button>
+        </form>
+        <p class="muted">Medicine name/category and dispensing status must be verified by a licensed pharmacist. No
+          treatment or dosage recommendations are generated here.</p>
+        <div id="stockActionResult"></div>
+      </div>
+    </section>
+    <footer>ASHA AI · Research prototype · Simulated data only · Not a substitute for emergency services or medical
+      professionals.</footer>
+  </main>
+  <div id="loginGate" class="login-gate">
+    <form id="loginForm" class="login-card">
+      <div class="brandmark">✚</div>
+      <h2>ASHA AI Secure Login</h2>
+      <p>Lakshmi Hospital Network prototype</p>
+      <label for="loginRole">Who is logging in? <span class="required-mark">*</span></label>
+      <select id="loginRole" name="role" autocomplete="organization-title" required>
+        <option value="" selected disabled>Select your assigned role</option>
+        <option value="super_admin">Super Admin</option>
+        <option value="network_admin">Network Admin</option>
+        <option value="hospital_admin">Hospital Admin</option>
+        <option value="doctor">Doctor / Triage Team</option>
+        <option value="dispatcher">Ambulance Dispatcher</option>
+        <option value="driver">Ambulance Driver</option>
+        <option value="pharmacy_staff">Pharmacy Staff</option>
+        <option value="auditor">Auditor (read-only)</option>
+      </select>
+      <label for="loginUsername">Username<input id="loginUsername" name="username" autocomplete="username"
+          required minlength="3" placeholder="Select your role first" disabled></label><label
+        for="loginPassword">Password<input id="loginPassword" name="password" type="password"
+          autocomplete="current-password" required placeholder="Select your role first" disabled></label>
+      <p class="login-hint">Select the role assigned to your account, then enter your own username and password. The
+        system checks that the selected role matches your account.</p><button class="primary full" type="submit">Sign in
+        securely</button>
+      <p id="loginError" class="login-error" role="alert" aria-live="polite"></p><small>Credentials are provided by your
+        ASHA AI Super Admin. Never share your password. Demo data only.</small>
+    </form>
+  </div>
+  <div id="toast" class="toast"></div>
+  <script src="app.js?v=20261024-login-role-fix2"></script>
+</body>
+
+</html>

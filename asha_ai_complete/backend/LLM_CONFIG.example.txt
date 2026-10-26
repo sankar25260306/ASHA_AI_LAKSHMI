@@ -1,0 +1,21 @@
+ASHA AI local LLM configuration (documentation only)
+
+Default local setup:
+  ASHA_LLM_PROVIDER=ollama
+  ASHA_LLM_MODEL=qwen2.5:3b
+  ASHA_OLLAMA_BASE_URL=http://127.0.0.1:11434
+
+Steps:
+  1. Install Ollama separately on Windows.
+  2. In a terminal, run: ollama pull qwen2.5:3b
+  3. Keep Ollama running.
+  4. Restart start_backend_windows.bat and open Multi-Agent AI.
+
+Optional OpenAI-compatible service (may incur charges):
+  ASHA_LLM_PROVIDER=openai_compatible
+  ASHA_LLM_MODEL=<provider-model-name>
+  ASHA_LLM_BASE_URL=https://api.openai.com/v1
+  ASHA_LLM_API_KEY=<set privately in your shell; never put the key in source code>
+
+The app does not auto-load this example file. Set variables in the shell before starting the backend.
+If the LLM is unavailable, the deterministic demo explanation still runs.
